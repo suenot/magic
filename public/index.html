@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Magic</title>
+    <link rel="stylesheet" href="/public/css/materialize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/public/css/app.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <div id="preloader" class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <h4 id="question" class="hide"></h4>
+      <div id="answers" class="collection hide"></div>
+      <div id="finish" class="hide">
+        <h4>Ваши ответы сохранены, спасибо.</h4>
+      </div>
+      <div id="error" class="hide">
+        <h4>Произошла ошибка при отправке, попробуйте позже или свяжитесь с <a href="mailto:test@test.ru">test@test.ru</a>.</h4>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="/public/js/app.js"></script>
+</html>

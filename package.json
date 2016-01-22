@@ -1,0 +1,27 @@
+{
+  "name": "magic-mdl-gitlab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "nodemailer": "^1.10.0",
+    "nodemailer-wellknown": "^0.1.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/suenot/magic.git"
+  },
+  "author": "suenot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/suenot/magic/issues"
+  },
+  "homepage": "https://gitlab.com/suenot/magic#README"
+}
